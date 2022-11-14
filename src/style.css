@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, serif;
+}
+
+.header-bar {
+    background-color: #21222A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 25px;
+    height: 100px
+}
+
+.header-bar > img {
+    width: 33px;
+    margin: 0 10px 0 0;
+}
+
+
+.header-bar > h3 {
+    color: #61DAFB;
+    font-size: 25px;
+    margin: 0 auto 0 0;
+}
+
+.header-bar > h4 {
+    color: white;
+    font-size: 20px;
+}
+
+.facts-react {
+    background-color: #282D35;
+    padding: 30px 40px;
+    color: white;
+    height: 850px;
+    background-image: url("images/react-icon-grey.webp");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.facts-react > h1 {
+    font-size: 50px;
+    letter-spacing: -0.05em;
+}
+
+.facts-list {
+
+}
+
+.facts-list > li {
+    padding-block: 10px;
+}
+
+.facts-list li::marker {
+    color: #61DAFB;
+   font-size: 1.5em;
+}
