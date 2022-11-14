@@ -7,5 +7,5 @@ test("navbar displays correct", () => {
     render(<Navbar />)
     const navbarFacts = screen.getByTestId("reactfacts");
     expect(navbarFacts).toBeInTheDocument();
-    expect(navbarFacts).toHaveTextContent("")
+    expect(navbarFacts).toHaveTextContent("ReactFacts")
 });
