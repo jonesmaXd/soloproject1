@@ -1,5 +1,4 @@
 name: Continuous Integration
-
 on:
   push:
     branches:
@@ -16,8 +15,9 @@ jobs:
       - uses: actions/setup-node@master
         with:
           node-version: 12
-      - run: npm install
-      - run: npm run build:prod
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
       - uses: w9jds/firebase-action@master
         with:
           args: deploy --only hosting
