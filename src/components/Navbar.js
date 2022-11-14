@@ -6,7 +6,7 @@ export default function Navbar() {
         <nav className={"header-bar"}>
                 <img className="react-logo" src={reactLogo}  alt={"a react logo"}/>
                 <h3 data-testid="reactfacts">ReactFacts</h3>
-                <h4>React course - project 1</h4>
+                <h4>React course - project 1 - Built by Jones</h4>
         </nav>
     )
 }
